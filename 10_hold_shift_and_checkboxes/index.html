@@ -116,10 +116,7 @@
 
     lastChecked = this
   }
-  checkboxes.forEach(checkbox => {
-    document.addEventListener('click', handleCheck)
-
-  })
+  checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
   
 </script>
 </body>
